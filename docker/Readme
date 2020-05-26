@@ -1,2 +1,2 @@
-docker build . -t  python-docker-ex
-docker run -p 7080:7080 python-docker-ex
+docker build . -t  jbossramana/python:docker-ex
+docker run -p 7080:7080  jbossramana/python:docker-ex
