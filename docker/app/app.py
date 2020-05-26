@@ -3,6 +3,10 @@ import socket
 
 app = Flask(__name__)
 
+@app.route("/python")
+def hello():
+    return "Hello... Welcome To Python World!"
+
 @app.route("/")
 def index():
     try:
@@ -14,4 +18,4 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8090)
+    app.run(host='0.0.0.0', port=7080)
